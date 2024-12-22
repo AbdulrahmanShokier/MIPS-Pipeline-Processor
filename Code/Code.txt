@@ -1,0 +1,8 @@
+addi $t0,$0,5
+addi $t1,$0,5
+addi $t2,$t1,5
+lw $t3,0($t0)
+add $t4,$t3,$t0
+beq $t1,$t0,label
+add $t5,$t0,$t1
+label: add $t5,$t0,$t1
