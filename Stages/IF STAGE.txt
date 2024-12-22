@@ -1,0 +1,120 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity MIPS_MAIN is
+    Port (
+        CLK   : in  STD_LOGIC;    -- Clock signal
+        RESET : in  STD_LOGIC     -- Reset signal
+    );
+end MIPS_MAIN;
+
+architecture Behavioral of MIPS_MAIN is
+
+    -- **Component Declarations**
+    component MUX_32 is
+        Port (
+            MUX_IN1 : in  STD_LOGIC_VECTOR (31 downto 0); -- PC+4
+            MUX_IN2 : in  STD_LOGIC_VECTOR (31 downto 0); -- PC+4+IMM VALUE
+            SEL     : in  STD_LOGIC;                     -- Selector
+            MUX_OUT : out STD_LOGIC_VECTOR (31 downto 0) -- Output to PC
+        );
+    end component;
+
+    component PC is
+        Port (
+            PC_N   : in  STD_LOGIC_VECTOR (31 downto 0); -- New PC value
+            CLK    : in  STD_LOGIC;                     -- Clock signal
+            RESET  : in  STD_LOGIC;                     -- Reset signal
+            STALL  : in  STD_LOGIC;                     -- Stall signal
+            PC_OUT : out STD_LOGIC_VECTOR (31 downto 0) -- Current PC value
+        );
+    end component;
+
+    component PC_ADDER is
+        Port (
+            INPUT1  : in  STD_LOGIC_VECTOR (31 downto 0); -- PC input
+            ADD_OUT : out STD_LOGIC_VECTOR (31 downto 0)  -- PC+4 output
+        );
+    end component;
+
+    component IM_COMPONENT is
+        Port (
+            PC       : in  STD_LOGIC_VECTOR (31 downto 0); -- PC input
+            INSTRUCT : out STD_LOGIC_VECTOR (31 downto 0)  -- Instruction output
+        );
+    end component;
+
+    component F_ID_REG is
+        Port (
+            INSTRUCT     : in  STD_LOGIC_VECTOR (31 downto 0); -- Instruction input
+            PC           : in  STD_LOGIC_VECTOR (31 downto 0); -- PC input
+            INSTRUCT_OUT : out STD_LOGIC_VECTOR (31 downto 0); -- Instruction output
+            PC_OUT       : out STD_LOGIC_VECTOR (31 downto 0); -- PC output
+            CLK          : in  STD_LOGIC;                     -- Clock signal
+            STALL        : in  STD_LOGIC;                     -- Stall signal
+            FLUSH        : in  STD_LOGIC                      -- Flush signal
+        );
+    end component;
+
+    -- **Signals**
+    signal PC_OUT          : STD_LOGIC_VECTOR(31 downto 0); -- Current PC value
+    signal MUX_OUT         : STD_LOGIC_VECTOR(31 downto 0); -- Output of MUX (input to PC)
+    signal ADDER_OUT       : STD_LOGIC_VECTOR(31 downto 0); -- Output of PC_ADDER (PC+4)
+    signal INSTRUCTION     : STD_LOGIC_VECTOR(31 downto 0); -- Output of instruction memory
+    signal INSTRUCT_OUT    : STD_LOGIC_VECTOR(31 downto 0); -- Instruction output from IF/ID register
+    signal PC_REG_OUT      : STD_LOGIC_VECTOR(31 downto 0); -- PC output from IF/ID register
+    signal PLACEHOLDER_IN1 : STD_LOGIC_VECTOR(31 downto 0) := (others => '0'); -- Placeholder for PC+4
+    signal PLACEHOLDER_IN2 : STD_LOGIC_VECTOR(31 downto 0) := (others => '0'); -- Placeholder for PC+4+IMM
+    signal STALL           : STD_LOGIC := '0'; -- Placeholder for Stall signal
+    signal FLUSH           : STD_LOGIC := '0'; -- Placeholder for Flush signal
+    signal SEL             : STD_LOGIC := '0'; -- Placeholder for MUX selector signal
+
+begin
+
+    -- **MUX_32 Instantiation**
+    MUX_INST : MUX_32
+        port map (
+            MUX_IN1 => PLACEHOLDER_IN1, -- Placeholder for PC+4
+            MUX_IN2 => PLACEHOLDER_IN2, -- Placeholder for PC+4+IMM
+            SEL     => SEL,             -- Placeholder for Selector signal
+            MUX_OUT => MUX_OUT          -- Output connected to PC
+        );
+
+    -- **PC Instantiation**
+    PC_INST : PC
+        port map (
+            PC_N   => MUX_OUT,  -- MUX output becomes the new PC value
+            CLK    => CLK,
+            RESET  => RESET,
+            STALL  => STALL,    -- Placeholder for Stall signal
+            PC_OUT => PC_OUT    -- Current PC value
+        );
+
+    -- **PC_ADDER Instantiation**
+    PC_ADDER_INST : PC_ADDER
+        port map (
+            INPUT1  => PC_OUT,     -- Current PC value as input
+            ADD_OUT => ADDER_OUT   -- PC+4 output
+        );
+
+    -- **IM_COMPONENT Instantiation**
+    IM_INST : IM_COMPONENT
+        port map (
+            PC       => PC_OUT,      -- Current PC value as input
+            INSTRUCT => INSTRUCTION  -- Instruction output
+        );
+
+    -- **F_ID_REG Instantiation**
+    F_ID_REG_INST : F_ID_REG
+        port map (
+            INSTRUCT     => INSTRUCTION,  -- Instruction from IM_COMPONENT
+            PC           => ADDER_OUT,   -- PC+4 from PC_ADDER
+            INSTRUCT_OUT => INSTRUCT_OUT, -- Output to ID stage
+            PC_OUT       => PC_REG_OUT,  -- Output to ID stage
+            CLK          => CLK,
+            STALL        => STALL,       -- Placeholder for Stall signal
+            FLUSH        => FLUSH        -- Placeholder for Flush signal
+        );
+
+end Behavioral;
