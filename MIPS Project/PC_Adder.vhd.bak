@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity PC_ADDER is    ------CALCULATING PC+4
+    Port ( INPUT1 : in  STD_LOGIC_VECTOR (31 downto 0);  -- PC input
+           ADD_OUT : out  STD_LOGIC_VECTOR (31 downto 0));  -- PC+4 output
+end PC_ADDER;
+
+architecture Behavioral of PC_ADDER is
+begin
+    -- Add 4 to the PC value (convert to unsigned, add 4, convert back to STD_LOGIC_VECTOR)
+    ADD_OUT <= conv_std_logic_vector(conv_integer(conv_unsigned(INPUT1)) + 4, 32);
+end Behavioral;
+

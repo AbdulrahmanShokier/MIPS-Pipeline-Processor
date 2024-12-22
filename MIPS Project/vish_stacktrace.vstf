@@ -1,0 +1,41 @@
+# Current time Fri Dec 20 10:31:56 2024
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address f7a52518. Traceback:
+# 0    0xf7a52518: '<unknown (@0xf7a52518)>'
+# 1    0x17c65e58: 'OleQueryLinkFromData + 0x3a18'
+# 2    0x17c4be29: 'DoDragDrop + 0x1089'
+# 3    0x17c7987c: 'Ordinal800 + 0x6fc'
+# 4    0x17c803e4: 'CoGetInterceptor + 0xa04'
+# 5    0x17c4aec7: 'DoDragDrop + 0x127'
+# 6    0xf7a565f9: 'Tkdnd_SafeInit + 0x14f9'
+# 7    0xf7a543b5: '<unknown (@0xf7a543b5)>'
+# 8    0x654c6c03: 'TclNRRunCallbacks + 0x63'
+# 9    0x00020bfa: 'Itcl_EvalMemberCode + 0x3ba'
+# 10   0x00021dbb: 'Itcl_ExecMethod + 0x23b'
+# 11   0x00029879: 'Itcl_EvalArgs + 0x1c9'
+# 12   0x00024b51: 'Itcl_HandleInstance + 0x2c1'
+# 13   0x654c6c03: 'TclNRRunCallbacks + 0x63'
+# 14   0x654c586c: 'TclCleanupCommand + 0x88c'
+# 15   0x654c8d4f: 'Tcl_EvalEx + 0x1f'
+# 16   0x64fa431a: 'Tk_BindEvent + 0x91a'
+# 17   0x64fdbd41: 'TkBindEventProc + 0x291'
+# 18   0x64fec614: 'Tk_HandleEvent + 0x2f4'
+# 19   0x64feb2da: 'TkDeleteThreadExitHandler + 0x31a'
+# 20   0x6556d41c: 'Tcl_ServiceEvent + 0x9c'
+# 21   0x6556d019: 'Tcl_DoOneEvent + 0x89'
+# 22   0x64feaee5: 'Tk_MainLoop + 0x25'
+# 23   0x6502d282: 'Tk_MainEx + 0x932'
+# 24   0x401df790: 'Mtirpc_Init + 0x22860'
+# 25   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 26   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 27   0x17b9e8d7: 'BaseThreadInitThunk + 0x17'
+# 28   0x18d1fbcc: 'RtlUserThreadStart + 0x2c'
+StackWalk failed 0
+# End of Stack Trace
+

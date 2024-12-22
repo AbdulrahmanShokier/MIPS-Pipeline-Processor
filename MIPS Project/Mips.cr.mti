@@ -1,0 +1,273 @@
+{D:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity COMPARE_UNIT
+-- Compiling architecture Behavioral of COMPARE_UNIT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity HAZARD_DETECTION_UNIT
+-- Compiling architecture Behavioral of HAZARD_DETECTION_UNIT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\3ELEC_DATA\Organization\Project\MIPS Project\Control_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MAIN_CONTROL_UNIT
+-- Compiling architecture Behavioral of MAIN_CONTROL_UNIT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SIGN_EXTEND
+-- Compiling architecture Behavioral of SIGN_EXTEND
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SHIFT
+-- Compiling architecture Behavioral of SHIFT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MEM_TO_REG_MUX
+-- Compiling architecture Behavioral of MEM_TO_REG_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL_MUX
+-- Compiling architecture Behavioral of CONTROL_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_CONTROL
+-- Compiling architecture Behavioral of ALU_CONTROL
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FORWARD_A_MUX
+-- Compiling architecture Behavioral of FORWARD_A_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FLUSH_DETECTOR
+-- Compiling architecture Behavioral of FLUSH_DETECTOR
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FORWARD_B_MUX
+-- Compiling architecture Behavioral of FORWARD_B_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MUX_32
+-- Compiling architecture Behavioral of MUX_32
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MIPS_MAIN
+-- Compiling architecture Behavioral of MIPS_MAIN
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/MEM_WB_REG.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\3ELEC_DATA\Organization\Project\MIPS Project\MEM_WB_REG.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MEM_WB
+-- Compiling architecture Behavioral of MEM_WB
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BRANCH_ADDER
+-- Compiling architecture Behavioral of BRANCH_ADDER
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity JUMP_MUX
+-- Compiling architecture Behavioral of JUMP_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ID_EX_REG
+-- Compiling architecture Behavioral of ID_EX_REG
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/IM.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\3ELEC_DATA\Organization\Project\MIPS Project\IM.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity IM_COMPONENT
+-- Compiling architecture Behavioral of IM_COMPONENT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RD_RT_MUX
+-- Compiling architecture Behavioral of RD_RT_MUX
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity EX_MEM_REG
+-- Compiling architecture Behavioral of EX_MEM_REG
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity JUMP_ADDRESS_CALC
+-- Compiling architecture Behavioral of JUMP_ADDRESS_CALC
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/IF_ID_REG.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\3ELEC_DATA\Organization\Project\MIPS Project\IF_ID_REG.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity F_ID_REG
+-- Compiling architecture Behavioral of F_ID_REG
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_Unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:\3ELEC_DATA\Organization\Project\MIPS Project\Fwd_Unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FORWARDING_UNIT
+-- Compiling architecture Behavioral of FORWARDING_UNIT
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PC_ADDER
+-- Compiling architecture Behavioral of PC_ADDER
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DATA_MEM
+-- Compiling architecture Behavioral of DATA_MEM
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PC
+-- Compiling architecture Behavioral of PC
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND_GATE
+-- Compiling architecture Behavioral of AND_GATE
+
+} {} {}} {D:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity REG_FILE
+-- Compiling architecture Behavioral of REG_FILE
+
+} {} {}}
