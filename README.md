@@ -1,6 +1,6 @@
 # MIPS Pipeline Processor
 
-This repository contains the implementation of a fully functional MIPS pipeline processor developed using VHDL. The processor supports advanced hardware features, ensuring efficient handling of data and control flow hazards. Below, you'll find details about the architecture, features, and how to use this project.
+This repository contains the implementation of a fully functional MIPS 32 pipeline processor developed using VHDL. The processor supports advanced hardware features, ensuring efficient handling of data and control flow hazards. Below, you'll find details about the architecture, features, and how to use this project.
 
 
 
@@ -18,13 +18,13 @@ This repository contains the implementation of a fully functional MIPS pipeline 
 
 ## Advanced Hardware Features
 
-- Forwarding Unit: Resolves data hazards by forwarding results from later pipeline stages to earlier ones.
+- Forwarding Unit: Resolves RAW data hazards by forwarding results from later pipeline stages(memory or write back) to earlier one stage(execute).
 
 - Hazard Detection Unit: Detects and mitigates data and control hazards, ensuring smooth pipeline operation.
 
 - Static Branch Prediction: Implements a static branch prediction mechanism (always not taken) for conditional branch instructions.
   
-- CPU Stalling: Introduces a stalling mechanism to pause the pipeline when a hazard cannot be resolved by forwarding or prediction.
+- CPU Stalling: Introduces a stalling mechanism to pause(stall) the pipeline when a hazard cannot be resolved by forwarding or prediction.
 
 ## Additional Features
 
