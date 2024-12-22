@@ -1,0 +1,1271 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.7/examples
+T_opt
+!s110 1734722358
+V3Ajn=JzBK40^>b@nYWTgU1
+04 17 10 work main_control_unit behavioral 1
+=1-04bf1b1ede0d-6765c336-7a-24e4
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7;67
+R0
+T_opt1
+!s110 1734702431
+VU4:k3jkkM8_bCimGNCCFb1
+04 9 10 work mips_main behavioral 1
+=8-04bf1b1ede0d-6765755f-34b-1218
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1734723774
+VkBL[o^N_2Ch6ZTe7<MBS=2
+04 21 10 work hazard_detection_unit behavioral 1
+=1-04bf1b1ede0d-6765c8bd-35b-45a0
+R1
+R2
+n@_opt2
+R3
+Ealu
+Z4 w1734364570
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 dD:/3ELEC_DATA/Organization/Project/MIPS Project
+Z9 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd
+Z10 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd
+l0
+L5
+V9Bz8Jz7dARFh6F3nK[ReW1
+!s100 fl`M`6QnYV<RK=>9>?Wl^0
+Z11 OL;C;10.7;67
+32
+Z12 !s110 1734702424
+!i10b 1
+Z13 !s108 1734702424.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd|
+Z15 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 9Bz8Jz7dARFh6F3nK[ReW1
+l15
+L14
+Vh[YCFh>3cmd0hF4L[4FAP1
+!s100 f3`E8Iz[lB:nH?dVioS7M3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ealu_control
+Z18 w1734365458
+R6
+R7
+R8
+Z19 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd
+Z20 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd
+l0
+L4
+VN=E7:62mGM6BboGFAQDXi0
+!s100 LhHZGo6E]Qa<UF0B<bN5D1
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd|
+Z22 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Alu_Control.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 11 alu_control 0 22 N=E7:62mGM6BboGFAQDXi0
+l13
+L12
+Vh27f^2JcTiD@[NEafzOKN1
+!s100 8R5Z4?o2?SSK8bHbNO3PV1
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17
+Eand_gate
+Z23 w1734274759
+R6
+R7
+R8
+Z24 8D:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd
+Z25 FD:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd
+l0
+L4
+VA0caRWzf8czz5A<jJo:BS2
+!s100 ?01``EKAWbN;FzIj8jcFn2
+R11
+32
+R12
+!i10b 1
+R13
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd|
+Z27 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/And_Gate.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 8 and_gate 0 22 A0caRWzf8czz5A<jJo:BS2
+l13
+L12
+V@l]VAnV0bcT34@0EOYZjT3
+!s100 k;Wo`@9oXlYOc11KBhEzN0
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 0
+R16
+R17
+Ebranch_adder
+Z28 w1734272195
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R6
+R7
+R8
+Z31 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd
+Z32 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd
+l0
+L6
+VCH3cBcO7GRL`bOP4HJVgA3
+!s100 V0]ReeeNXa?;h8ji_7Sl60
+R11
+32
+R12
+!i10b 1
+Z33 !s108 1734702423.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd|
+Z35 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Branch_Adder.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 12 branch_adder 0 22 CH3cBcO7GRL`bOP4HJVgA3
+l15
+L14
+Vm2mKMVoPBVU]LcF^HXiO>3
+!s100 WX;G9>M5VM?EYojhV`bQm2
+R11
+32
+R12
+!i10b 1
+R33
+R34
+R35
+!i113 0
+R16
+R17
+Ecompare_unit
+Z36 w1734274564
+R5
+R6
+R7
+R8
+Z37 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd
+Z38 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd
+l0
+L5
+VCf@5A^AM97CLQ2ZUFl1zU2
+!s100 >E@G>Y9Z<dTS[7T@fkVzY3
+R11
+32
+R12
+!i10b 1
+R13
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd|
+Z40 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Compare_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 12 compare_unit 0 22 Cf@5A^AM97CLQ2ZUFl1zU2
+l14
+L13
+VoiQ<l6Cz]VXoRM_F7UBk=2
+!s100 E@7]Sn@DMAPfzj=]BK>MN0
+R11
+32
+R12
+!i10b 1
+R13
+R39
+R40
+!i113 0
+R16
+R17
+Econtrol_mux
+Z41 w1734524877
+R6
+R7
+R8
+Z42 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd
+Z43 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd
+l0
+L4
+VmeQJ`c50WozD<kFC9UBNO2
+!s100 4oe>E`iiLN>X4?Dmd1>=M0
+R11
+32
+R12
+!i10b 1
+R13
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd|
+Z45 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Control_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 11 control_mux 0 22 meQJ`c50WozD<kFC9UBNO2
+l30
+L29
+V0dmM3E452HURe=nTLPM2Y1
+!s100 zDO[FiPGRk0O`78L]IkaS2
+R11
+32
+R12
+!i10b 1
+R13
+R44
+R45
+!i113 0
+R16
+R17
+Edata_mem
+Z46 w1734370591
+R5
+R6
+R7
+R8
+Z47 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd
+Z48 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd
+l0
+L5
+VkMCik<R`4JG2gdhAciaUS2
+!s100 9P^?Dm;]50RgQbF`=d;<S0
+R11
+32
+R12
+!i10b 1
+R13
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd|
+Z50 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Data_Memory.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 8 data_mem 0 22 kMCik<R`4JG2gdhAciaUS2
+l21
+L16
+VzLabUhO^Fo^z4E>mFQFfY3
+!s100 S_zMl=PJASmO:aZRQa>m`0
+R11
+32
+R12
+!i10b 1
+R13
+R49
+R50
+!i113 0
+R16
+R17
+Eex_mem_reg
+Z51 w1734372190
+R29
+R30
+R6
+R7
+R8
+Z52 8D:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd
+Z53 FD:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd
+l0
+L6
+VclXP@Jh]Mh@[PB^Gb]EVD0
+!s100 9b[5GWJZYk42ELe4jk;:L3
+R11
+32
+R12
+!i10b 1
+R13
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd|
+Z55 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/EX_MEM_REG.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 10 ex_mem_reg 0 22 clXP@Jh]Mh@[PB^Gb]EVD0
+l35
+L29
+VEA[Z]`bShD93hO;jT[ANO2
+!s100 AVMWCAHRX9?VG6`^MmKl_2
+R11
+32
+R12
+!i10b 1
+R13
+R54
+R55
+!i113 0
+R16
+R17
+Ef_id_reg
+Z56 w1734695936
+R29
+R30
+R6
+R7
+R8
+Z57 8D:\3ELEC_DATA\Organization\Project\MIPS Project\IF_ID_REG.vhd
+Z58 FD:\3ELEC_DATA\Organization\Project\MIPS Project\IF_ID_REG.vhd
+l0
+L6
+V9Od_im6G>kd@f8FUUM_::2
+!s100 RV054T>mcaogz:ljIY4<b3
+R11
+32
+Z59 !s110 1734702423
+!i10b 1
+R33
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\IF_ID_REG.vhd|
+Z61 !s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\IF_ID_REG.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 8 f_id_reg 0 22 9Od_im6G>kd@f8FUUM_::2
+l22
+L17
+VMe_nQma8OmgD>=D;`340Q0
+!s100 YV1h<l]E8AR?cYZXBg[zc0
+R11
+32
+R59
+!i10b 1
+R33
+R60
+R61
+!i113 0
+R16
+R17
+Eflush_detector
+Z62 w1734277827
+R6
+R7
+R8
+Z63 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd
+Z64 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd
+l0
+L4
+VUHDaInCXC3jLN7E=b@aLP3
+!s100 ;nn_Z@:nVM=m8AJnNO6h>1
+R11
+32
+R12
+!i10b 1
+R13
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd|
+Z66 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Flush_Detector_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 14 flush_detector 0 22 UHDaInCXC3jLN7E=b@aLP3
+l13
+L12
+VXGhAW7onG`:aaUMh_8EoG3
+!s100 hM=Ca]VE:[VGJQN>B8odj3
+R11
+32
+R12
+!i10b 1
+R13
+R65
+R66
+!i113 0
+R16
+R17
+Eforward_a_mux
+Z67 w1734363130
+R6
+R7
+R8
+Z68 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd
+Z69 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd
+l0
+L4
+V5VWzZ`c6MOo>zZYF2>GQ>0
+!s100 3^oKn]I@G;feMakedcBfV0
+R11
+32
+R12
+!i10b 1
+R13
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd|
+Z71 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_A_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 13 forward_a_mux 0 22 5VWzZ`c6MOo>zZYF2>GQ>0
+l15
+L14
+V2`84SgN7o5S4P_`cjBID_3
+!s100 aBUoefN2M;:DhFPBM>U8F0
+R11
+32
+R12
+!i10b 1
+R13
+R70
+R71
+!i113 0
+R16
+R17
+Eforward_b_mux
+Z72 w1734363371
+R6
+R7
+R8
+Z73 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd
+Z74 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd
+l0
+L4
+V`<0S3j4P6Pc;ZFN9RPe>U2
+!s100 R:AGe35Z]dXz;SEKK6Mh22
+R11
+32
+R12
+!i10b 1
+R13
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd|
+Z76 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Fwd_B_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 13 forward_b_mux 0 22 `<0S3j4P6Pc;ZFN9RPe>U2
+l16
+L15
+VZY>>fZb5XKh:<=o7<laEO1
+!s100 YOYMBa9cl?MVfEHJk0oc81
+R11
+32
+R12
+!i10b 1
+R13
+R75
+R76
+!i113 0
+R16
+R17
+Eforwarding_unit
+Z77 w1734698705
+R29
+R30
+R6
+R7
+R8
+Z78 8D:\3ELEC_DATA\Organization\Project\MIPS Project\Fwd_Unit.vhd
+Z79 FD:\3ELEC_DATA\Organization\Project\MIPS Project\Fwd_Unit.vhd
+l0
+L6
+VV4_HOWEi:L2U_2hoAZ?UN2
+!s100 Eng:JjmFOO?W>ZZh1D]_I1
+R11
+32
+R12
+!i10b 1
+R13
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\Fwd_Unit.vhd|
+Z81 !s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\Fwd_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 15 forwarding_unit 0 22 V4_HOWEi:L2U_2hoAZ?UN2
+l25
+L20
+Va8g[b[[CY[?m`fo;8XBHG0
+!s100 Y0?Fa3g=FG9Sb[ThhP63R1
+R11
+32
+R12
+!i10b 1
+R13
+R80
+R81
+!i113 0
+R16
+R17
+Ehazard_detection_unit
+Z82 w1734277298
+R29
+R30
+R6
+R7
+R8
+Z83 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd
+Z84 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd
+l0
+L6
+V]`<8DDR[7jcF5hn4m6DMj0
+!s100 6A52J?Qf_Yng[bNzhQG?X1
+R11
+32
+R12
+!i10b 1
+R13
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd|
+Z86 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Hazard_Detection_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 21 hazard_detection_unit 0 22 ]`<8DDR[7jcF5hn4m6DMj0
+l20
+L19
+VGbe7>A<k?9QQ8[HQVP`D?3
+!s100 A9=`ogBM9F=m;ogkf5=Ko0
+R11
+32
+R12
+!i10b 1
+R13
+R85
+R86
+!i113 0
+R16
+R17
+Eid_ex_mux
+w1734276543
+R6
+R7
+R8
+8D:\3ELEC_DATA\Organization\Project\MIPS Project\D_E_Mux.vhd
+FD:\3ELEC_DATA\Organization\Project\MIPS Project\D_E_Mux.vhd
+l0
+L4
+VLW684GnnJDGP1N4hc9m@Y3
+!s100 0:08jUn8fC;`AiezVAigF3
+R11
+32
+!s110 1734276547
+!i10b 1
+!s108 1734276547.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\D_E_Mux.vhd|
+!s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\D_E_Mux.vhd|
+!i113 0
+R16
+R17
+Eid_ex_reg
+Z87 w1734280109
+R29
+R30
+R6
+R7
+R8
+Z88 8D:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd
+Z89 FD:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd
+l0
+L5
+VKH>MkG6e=Bcj1d:_DAJd11
+!s100 LBHnb8UhWl4ERA8MYzSg70
+R11
+32
+R12
+!i10b 1
+R13
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd|
+Z91 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/ID_EX_REG.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 9 id_ex_reg 0 22 KH>MkG6e=Bcj1d:_DAJd11
+l53
+L52
+Veo`97mk@l2U_lPf60iBAz0
+!s100 C[WEAn>_;Yhm7^U4SV1?70
+R11
+32
+R12
+!i10b 1
+R13
+R90
+R91
+!i113 0
+R16
+R17
+Eim_component
+Z92 w1734702413
+R29
+R30
+R6
+R7
+R8
+Z93 8D:\3ELEC_DATA\Organization\Project\MIPS Project\IM.vhd
+Z94 FD:\3ELEC_DATA\Organization\Project\MIPS Project\IM.vhd
+l0
+L7
+Vbh3>o0ECY1F0I8c@E]XY?2
+!s100 EHb8EHEcTg]CZc4_FDRLW1
+R11
+32
+R59
+!i10b 1
+R33
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\IM.vhd|
+Z96 !s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\IM.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 12 im_component 0 22 bh3>o0ECY1F0I8c@E]XY?2
+l52
+L12
+VBn7F3B6<Q[Uc?M=mWO0Yj1
+!s100 b15RSV60FdOCi3WIR@agY1
+R11
+32
+R59
+!i10b 1
+R33
+R95
+R96
+!i113 0
+R16
+R17
+Ejump_address_calc
+Z97 w1734379963
+R29
+R30
+R6
+R7
+R8
+Z98 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd
+Z99 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd
+l0
+L6
+VX2>a342ElzDGaWmE[`f6_1
+!s100 ]Q_0D@5VNg<4?S12U[[Li1
+R11
+32
+Z100 !s110 1734702425
+!i10b 1
+Z101 !s108 1734702425.000000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd|
+Z103 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Address_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 17 jump_address_calc 0 22 X2>a342ElzDGaWmE[`f6_1
+l17
+L14
+VmbZ@DjN[U_dcg5[fX;G^b1
+!s100 fklc6?jQf4>n0NY[S9CdE1
+R11
+32
+R100
+!i10b 1
+R101
+R102
+R103
+!i113 0
+R16
+R17
+Ejump_mux
+Z104 w1734380253
+R6
+R7
+R8
+Z105 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd
+Z106 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd
+l0
+L4
+VY67h9kL=lU:WES]:2dTOJ3
+!s100 796GSbJZcfP06PB=aXWzP3
+R11
+32
+R100
+!i10b 1
+R101
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd|
+Z108 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Jump_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 8 jump_mux 0 22 Y67h9kL=lU:WES]:2dTOJ3
+l14
+L13
+Va=nB8hL5CE:9J[<0CmUoI2
+!s100 6T0zEfJz;X`6OchjVgJI12
+R11
+32
+R100
+!i10b 1
+R101
+R107
+R108
+!i113 0
+R16
+R17
+Emain_control_unit
+Z109 w1734699821
+R29
+R30
+R6
+R7
+R8
+Z110 8D:\3ELEC_DATA\Organization\Project\MIPS Project\Control_Unit.vhd
+Z111 FD:\3ELEC_DATA\Organization\Project\MIPS Project\Control_Unit.vhd
+l0
+L6
+Vb7kCc`=QjEMWd<Fm?M0CZ1
+!s100 Lc0c4XZN;0_XklIgTPY3f1
+R11
+32
+R59
+!i10b 1
+R33
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\Control_Unit.vhd|
+Z113 !s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\Control_Unit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 17 main_control_unit 0 22 b7kCc`=QjEMWd<Fm?M0CZ1
+l22
+L21
+V4H>E9L]0gZezzkglzUSEZ3
+!s100 MUk4==[iGA0[F;LaVS[`L1
+R11
+32
+R59
+!i10b 1
+R33
+R112
+R113
+!i113 0
+R16
+R17
+Emem_to_reg_mux
+Z114 w1734379254
+R29
+R30
+R6
+R7
+R8
+Z115 8D:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd
+Z116 FD:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd
+l0
+L6
+VDHR^em:o96209[R7^AFlM0
+!s100 2blO1z[EPPDG<nYk1Oho=0
+R11
+32
+R100
+!i10b 1
+R101
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd|
+Z118 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/MemToReg_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 14 mem_to_reg_mux 0 22 DHR^em:o96209[R7^AFlM0
+l16
+L15
+VOEP<_AJE1CiAmYZ89Rg463
+!s100 Z4A9k@ziHjS:n<:YXTQng2
+R11
+32
+R100
+!i10b 1
+R101
+R117
+R118
+!i113 0
+R16
+R17
+Emem_wb
+Z119 w1734697264
+R29
+R30
+R6
+R7
+R8
+Z120 8D:\3ELEC_DATA\Organization\Project\MIPS Project\MEM_WB_REG.vhd
+Z121 FD:\3ELEC_DATA\Organization\Project\MIPS Project\MEM_WB_REG.vhd
+l0
+L6
+VPJBdCIVzk=kFNEjie<j@B2
+!s100 Yhk<1?anWRlk7kmW^4?F>1
+R11
+32
+R100
+!i10b 1
+R101
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3ELEC_DATA\Organization\Project\MIPS Project\MEM_WB_REG.vhd|
+Z123 !s107 D:\3ELEC_DATA\Organization\Project\MIPS Project\MEM_WB_REG.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 6 mem_wb 0 22 PJBdCIVzk=kFNEjie<j@B2
+l25
+L24
+VNFBHY_<`JIJ^PfDzz=6AT3
+!s100 1?T@^R?[N`o<i@4_DFA<31
+R11
+32
+R100
+!i10b 1
+R101
+R122
+R123
+!i113 0
+R16
+R17
+Emips_main
+Z124 w1734686929
+R29
+R30
+R5
+R6
+R7
+R8
+Z125 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd
+Z126 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd
+l0
+L7
+VGS8L[=RL5j9NU4fVP7g5D0
+!s100 14U:Qo>z[FL[ef>4KjVPF2
+R11
+32
+R100
+!i10b 1
+R101
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd|
+Z128 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Main_File.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R5
+R6
+R7
+DEx4 work 9 mips_main 0 22 GS8L[=RL5j9NU4fVP7g5D0
+l440
+L14
+VJ>nlVLRj:DQm310=aHbm63
+!s100 kEX@a3N?1Hd:aQ^R7:EAe0
+R11
+32
+R100
+!i10b 1
+R101
+R127
+R128
+!i113 0
+R16
+R17
+Emux_32
+Z129 w1734220729
+R29
+R30
+R6
+R7
+R8
+Z130 8D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd
+Z131 FD:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd
+l0
+L6
+V_JZ8<<9bhNl9NS5BIcRj`1
+!s100 zbXK_6FAoW9CzL:@e41^N0
+R11
+32
+R59
+!i10b 1
+R33
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd|
+Z133 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_MUX.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 6 mux_32 0 22 _JZ8<<9bhNl9NS5BIcRj`1
+l15
+L13
+VRKc`X];IRzlH`nGS@bB4:2
+!s100 ]KWL<i]=?K0_2<I0KgR5I1
+R11
+32
+R59
+!i10b 1
+R33
+R132
+R133
+!i113 0
+R16
+R17
+Epc
+Z134 w1734213201
+R5
+R6
+R7
+R8
+Z135 8D:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd
+Z136 FD:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd
+l0
+L5
+V?;Y>3?^bI]>^E[eibe0aX0
+!s100 R:9BQ<6k8418OMZdT0K:i2
+R11
+32
+R59
+!i10b 1
+R33
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd|
+Z138 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/PC.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 2 pc 0 22 ?;Y>3?^bI]>^E[eibe0aX0
+l17
+L15
+VggAnDlTV04RFB38`H;R:J2
+!s100 >2HO3T]lNaZR<HA7UYZXK0
+R11
+32
+R59
+!i10b 1
+R33
+R137
+R138
+!i113 0
+R16
+R17
+Epc_adder
+Z139 w1734218080
+R29
+R30
+R6
+R7
+R8
+Z140 8D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd
+Z141 FD:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd
+l0
+L6
+VXXZUO^d]WQzDha`^GfPRo3
+!s100 >UlDKzZ?3dAj2XhUhP0bW0
+R11
+32
+R59
+!i10b 1
+R33
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd|
+Z143 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/PC_Adder.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 8 pc_adder 0 22 XXZUO^d]WQzDha`^GfPRo3
+l12
+L11
+VAQ8Xn]A]H@Amk@QmVjbCk0
+!s100 ihNF1OTdHa]baQ>BoV@II2
+R11
+32
+R59
+!i10b 1
+R33
+R142
+R143
+!i113 0
+R16
+R17
+Erd_rt_mux
+Z144 w1734273190
+R29
+R30
+R6
+R7
+R8
+Z145 8D:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd
+Z146 FD:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd
+l0
+L6
+Vk:d@Ml[QoXALMYenWojkn0
+!s100 8B9]Z7==P5<n6RR>bKZAb3
+R11
+32
+R12
+!i10b 1
+R13
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd|
+Z148 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/RD_Mux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 9 rd_rt_mux 0 22 k:d@Ml[QoXALMYenWojkn0
+l15
+L14
+VbUcMG5dS:MN7<F<:XbhFK0
+!s100 1g]kTEL7IHJ`ILmK>V=FY3
+R11
+32
+R12
+!i10b 1
+R13
+R147
+R148
+!i113 0
+R16
+R17
+Ereg_file
+Z149 w1734381270
+R5
+R6
+R7
+R8
+Z150 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd
+Z151 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd
+l0
+L5
+VhLd1`BXL:<^g]=GEG6A]A0
+!s100 3kLm=`6^75YloElF2WR190
+R11
+32
+R12
+!i10b 1
+R13
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd|
+Z153 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Reg_File.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 8 reg_file 0 22 hLd1`BXL:<^g]=GEG6A]A0
+l24
+L18
+VJ`a<Oo[E4k@B6o:_nM7F:0
+!s100 1cG6QZSAKeP?<7?<L]0Hl0
+R11
+32
+R12
+!i10b 1
+R13
+R152
+R153
+!i113 0
+R16
+R17
+Eshift
+Z154 w1734272900
+R29
+R30
+R6
+R7
+R8
+Z155 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd
+Z156 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd
+l0
+L6
+V[dH=ibU6>ACmhMgc;z3jz0
+!s100 9AdelTgK:8N<Q[;zGZbWF2
+R11
+32
+R12
+!i10b 1
+R13
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd|
+Z158 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Shift_left.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 5 shift 0 22 [dH=ibU6>ACmhMgc;z3jz0
+l13
+L11
+V>ZP6e:kKHWAb2Y>REBEmK1
+!s100 j<T9>6;XLbJf>NO[5`G4m0
+R11
+32
+R12
+!i10b 1
+R13
+R157
+R158
+!i113 0
+R16
+R17
+Esign_extend
+Z159 w1734272598
+R29
+R30
+R6
+R7
+R8
+Z160 8D:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd
+Z161 FD:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd
+l0
+L6
+V48G:iXgDElV`4l@o:aOUS3
+!s100 hU74c=>1>OGPzMF:dEPzf1
+R11
+32
+R12
+!i10b 1
+R13
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd|
+Z163 !s107 D:/3ELEC_DATA/Organization/Project/MIPS Project/Sign_Extend.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R29
+R30
+R6
+R7
+DEx4 work 11 sign_extend 0 22 48G:iXgDElV`4l@o:aOUS3
+l13
+L12
+Va>Lkb@lN0<kQ>YFcYenI@2
+!s100 iCWjj>X14aXX@oE:RWIGa0
+R11
+32
+R12
+!i10b 1
+R13
+R162
+R163
+!i113 0
+R16
+R17
