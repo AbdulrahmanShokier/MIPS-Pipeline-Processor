@@ -42,7 +42,7 @@ To use this project, you will need:
 
 # Getting Started
 
-#Cloning the Repository
+# Cloning the Repository
 
 Clone this repository to your local machine using:
 
